@@ -1,0 +1,22 @@
+# macOS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Local secrets/config
+.env
+.env.*
+!.env.example
+backend/config/database.php
+backend/config/mail.php
+
+# Dependencies / generated folders
+frontend/node_modules/
+frontend/.expo/
+backend/vendor/
+
+# Build/submission artifacts
+*.apk
+*.aab
+*.ipa
+*.zip
